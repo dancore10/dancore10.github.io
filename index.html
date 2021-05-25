@@ -152,7 +152,7 @@ Technology advances by giant steps, we must advance with it.
 </div>
 <div class="col-sm-6 col-md-6 col-lg-4 subpage-block">
 <ul class="info-list">
-<li><span class="title">Age: </span><span class="value">25</span></li>
+<li><span class="title">Age: </span><span class="value">26</span></li>
 <li><span class="title">Residence: </span><span class="value">Colombia</span></li>
 <!-- <li><span class="title">Address</span><span class="value"></span></li> -->
 <li>
@@ -274,9 +274,18 @@ Technology advances by giant steps, we must advance with it.
 <div class="timeline">
 
 <div class="timeline-event te-primary">
+<h5 class="event-date">2021</h5>
+<span class="event-description">Courses</span>
+<h4 class="event-name">- Curso profesional de SCRUM</h4>
+<h4 class="event-name">- Gestión efectiva del tiempo</h4>
+<h4 class="event-name">- Liderazgo para equipos de trabajo</h4>
+<h4 class="event-name">- Curso básico de Python</h4>
+</div>
+
+<div class="timeline-event te-primary">
 <h5 class="event-date">2019</h5>
 <h4 class="event-name">Git</h4>
-<span class="event-description">Other Course</span>
+<span class="event-description">Courses</span>
 <p>Version-control system for tracking changes in source code during software development.</p>
 </div>
 
@@ -317,7 +326,14 @@ Technology advances by giant steps, we must advance with it.
 <div class="timeline">
 
 <div class="timeline-event te-primary">
-<h5 class="event-date">Sep 2018 - Current</h5>
+<h5 class="event-date">Jun 2020 - Current</h5>
+<h4 class="event-name">Full-stack Developer</h4>
+<span class="event-description">Glouky Group S.A.S.</span>
+<p>Web software developer, ReactJS, NodeJs, MongoDB, Firestore, GCP, Headless CMS</p>
+</div>
+
+<div class="timeline-event te-primary">
+<h5 class="event-date">Sep 2018 - Jun 2020</h5>
 <h4 class="event-name">Full-stack Developer</h4>
 <span class="event-description">Zlivio S.A.S.</span>
 <p>Web software developer, Back-end, Front-end & Databases.</p>
@@ -520,24 +536,24 @@ Technology advances by giant steps, we must advance with it.
 <script type="text/javascript">
 	$(document).ready(function() {
         $('.owl-carousel').owlCarousel({
-            stagePadding: 50,
+            stagePadding: 49,
             loop:true,
-            margin:10,
+            margin:9,
                 center:true,
-                items: 1,
+                items: 0,
             nav:false,
             autoplay:true,
-            autoplayTimeout:3000,
+            autoplayTimeout:2999,
             autoplayHoverPause:true,
             responsive:{
-                0:{
-                    items:1
+                -1:{
+                    items:0
                 },
-                600:{
-                    items:1
+                599:{
+                    items:0
                 },
-                1000:{
-                    items:1
+                999:{
+                    items:0
                 }
             }
         })
